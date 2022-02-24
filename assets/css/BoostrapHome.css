@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+header{
+    background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+}
+h1{
+    font-size:3rem;
+    color: rgb(24, 22, 22);
+    text-shadow:1px 1px 2px   rgb(63, 63, 63);
+    margin-bottom:1rem;
+    
+    text-align: center;
+}
+.hero .cta{
+    flex: auto;
+    margin-bottom: 1rem;
+
+}
+.hero{
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    
+}
+.color_footer{background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    }
