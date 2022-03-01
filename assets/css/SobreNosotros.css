@@ -1,11 +1,11 @@
-*{
+/* *{
     margin: 0;
     font-family: 'Bebas Neue', cursive;
     
 }
 
 header{
-    background-color: #D9AFD9;
+    background-color:;
 background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
 
 }
@@ -29,4 +29,42 @@ h1{
 }
 .color_footer{background-color: #D9AFD9;
     background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
-    }
+    } */
+
+    
+:root{
+    --color0: #fff;
+    --color1: #b41515;
+    --color2: #c62368;
+    --color3: #333;
+    --color4: rgb(96, 110, 189);
+    --color5: rgba(20, 189, 104, 0.548);
+
+}
+
+.navbar {
+    background-color: var(--color1);
+    
+}
+.carousel-item{
+    height: 800px;
+}
+
+.jumbotron{
+
+    background-image: url(../media/name3.jpg);
+    /* cover para que cubra toda la caja  */
+    background-size: cover;
+    /* center para centrar la imagen en la caja  */
+    background-position: center;
+    /* un height para la altura de la imagen cuanto abarque  */
+    height:400px ;
+    color:var(--color0);
+    text-shadow: 0 0 10px #333;
+    border-radius:0;
+    display:flex;
+    
+}
+.footer-copyright{
+    background-color: var(--color1)
+}
