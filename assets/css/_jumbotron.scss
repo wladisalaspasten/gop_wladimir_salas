@@ -1,0 +1,24 @@
+@import "fuentes";
+.jumbotron{
+
+    background-image: url(../media/time.jpg);
+    /* cover para que cubra toda la caja  */
+    background-size: cover;
+    /* center para centrar la imagen en la caja  */
+    background-position: center;
+    /* un height para la altura de la imagen cuanto abarque  */
+    height:400px ;
+    color:var(--color0);
+    text-shadow: 0 0 10px #333;
+    border-radius:0;
+    display:flex;
+    span{
+        font-family: "Syne Mono", monospace;
+        font-size: 40px;
+    }
+    h2{
+        font-family: "Work Sans", sans-serif;
+        font-size: 45px;
+    }
+
+}
