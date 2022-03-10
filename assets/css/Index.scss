@@ -3,7 +3,50 @@
 @import "header";
 @import "jumbotron";
 @import "fuentes";
+@import "colores";
 @import "footer";
+
+// .card-angular{
+//     font-family: "Syne Mono", monospace;
+//     font-size: 15px;
+//     background-color:$color0;
+// }
+
+
+
+@mixin cards ($fuente,$tamanio,$bg_color){
+    font-family: $fuente;
+    font-size:$tamanio;
+    background-color:$bg_color;
+    
+
+}
+@mixin smalls ($fuente,$tamanio,$small_font_color){
+    font-family: $fuente;
+    font-size:$tamanio;
+    color:$small_font_color;
+
+}
+
+
+.card-angular{
+    @include cards("Syne Mono",20px,$color1);
+    .text-muted{
+        @include smalls("monospace",30px,$color0!important);
+    }
+}
+.card-react{
+    @include cards("Syne Mono",20px,$color4);
+    .text-muted{
+        @include smalls("monospace",30px,$color0!important);    
+    }
+}
+.card-vue{
+    @include cards("Syne Mono",20px,$color5);
+    .text-muted{
+        @include smalls("monospace",30px,$color0!important);    
+    }
+}
 
 
 

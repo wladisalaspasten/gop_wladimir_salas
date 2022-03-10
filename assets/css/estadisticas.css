@@ -1,4 +1,3 @@
-/* INDEX */
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Work+Sans:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Work+Sans:wght@300&display=swap");
@@ -15,7 +14,7 @@
 }
 
 .jumbotron {
-  background-image: url(../media/time.jpg);
+  background-image: url(../media/stats2.png);
   /* cover para que cubra toda la caja  */
   background-size: cover;
   /* center para centrar la imagen en la caja  */
@@ -40,43 +39,21 @@
   background-color: #b41515;
 }
 
-.card-angular {
-  font-family: "Syne Mono", monospace;
-  font-size: 15px;
-  background-color: #fff;
-}
-
-.card-angular {
+.table1, .table2 {
+  font-size: 25px;
   font-family: "Syne Mono";
-  font-size: 20px;
-  background-color: #b41515;
-}
-.card-angular .text-muted {
-  font-family: "monospace";
-  font-size: 30px;
-  color: #fff !important;
 }
 
-.card-react {
-  font-family: "Syne Mono";
-  font-size: 20px;
-  background-color: #5ac7e2;
-}
-.card-react .text-muted {
-  font-family: "monospace";
-  font-size: 30px;
-  color: #fff !important;
+.btn--fuente1 Syne Mono, fuente2 Work Sans, fuente3 cursive {
+  font-family: Syne;
 }
 
-.card-vue {
-  font-family: "Syne Mono";
-  font-size: 20px;
-  background-color: #14bd688c;
-}
-.card-vue .text-muted {
-  font-family: "monospace";
-  font-size: 30px;
-  color: #fff !important;
+.btn--fuente1 Syne Mono, fuente2 Work Sans, fuente3 cursive {
+  font-family: Work;
 }
 
-/*# sourceMappingURL=index.css.map */
+.btn--fuente1 Syne Mono, fuente2 Work Sans, fuente3 cursive {
+  font-family: cursive;
+}
+
+/*# sourceMappingURL=estadisticas.css.map */

@@ -1,0 +1,39 @@
+@import "header";
+@import "jumbotron";
+@import "fuentes";
+@import "colores";
+@import "footer";
+
+// ejemplo basico de extend
+// .container{
+//     h2{
+//         font-family: "Syne Mono";   
+//      }
+// }
+
+.table1{
+    font-size:25px;
+    font-family: "Syne Mono";
+    
+}
+.table2{
+    @extend .table1;
+}
+
+// ejemplo de map
+$fuentes:
+    "fuente1" Syne Mono,
+    "fuente2" Work Sans,
+    "fuente3" cursive;
+
+
+// @each $nombreFuente,$nombreColor {
+
+// }
+
+@each $_fuentes, $font in $fuentes {
+    .btn--#{$fuentes} {
+        font-family: $font;
+   
+    }
+}
