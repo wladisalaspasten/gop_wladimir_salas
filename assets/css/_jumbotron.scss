@@ -1,20 +1,21 @@
 @import "fuentes";
 .jumbotron{
 
-    background-image: url(../media/stats2.png);
+    background-image: url(../media/CursosOnline.jpg);
     /* cover para que cubra toda la caja  */
     background-size: cover;
     /* center para centrar la imagen en la caja  */
     background-position: center;
     /* un height para la altura de la imagen cuanto abarque  */
     height:400px ;
-    color:var(--color0);
-    text-shadow: 0 0 10px #333;
+    color:$color0;
+    font-size:33px;
+    text-shadow: 0 0 10px rgb(204, 92, 92);
     border-radius:0;
     display:flex;
     span{
         font-family: "Syne Mono", monospace;
-        font-size: 40px;
+        font-size: 10px;
     }
     h2{
         font-family: "Work Sans", sans-serif;
@@ -22,3 +23,4 @@
     }
 
 }
+

@@ -21,14 +21,15 @@
   background-position: center;
   /* un height para la altura de la imagen cuanto abarque  */
   height: 400px;
-  color: var(--color0);
-  text-shadow: 0 0 10px #333;
+  color: #fff;
+  font-size: 33px;
+  text-shadow: 0 0 10px #cc5c5c;
   border-radius: 0;
   display: flex;
 }
 .jumbotron span {
   font-family: "Syne Mono", monospace;
-  font-size: 40px;
+  font-size: 10px;
 }
 .jumbotron h2 {
   font-family: "Work Sans", sans-serif;
@@ -43,4 +44,13 @@ h1 {
   font-family: "syne mono";
 }
 
-/*# sourceMappingURL=sobreNosotros.css.map */
+.jumbotron .container {
+  padding-bottom: 160px;
+  display: flex;
+  flex-wrap: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-around;
+}
+
+/*# sourceMappingURL=media.css.map */

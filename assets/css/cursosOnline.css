@@ -14,21 +14,22 @@
 }
 
 .jumbotron {
-  background-image: url(../media/sobrenosotrosbg.jpg);
+  background-image: url(../media/CursosOnline.jpg);
   /* cover para que cubra toda la caja  */
   background-size: cover;
   /* center para centrar la imagen en la caja  */
   background-position: center;
   /* un height para la altura de la imagen cuanto abarque  */
   height: 400px;
-  color: var(--color0);
-  text-shadow: 0 0 10px #333;
+  color: #fff;
+  font-size: 33px;
+  text-shadow: 0 0 10px #cc5c5c;
   border-radius: 0;
   display: flex;
 }
 .jumbotron span {
   font-family: "Syne Mono", monospace;
-  font-size: 40px;
+  font-size: 10px;
 }
 .jumbotron h2 {
   font-family: "Work Sans", sans-serif;
@@ -39,8 +40,4 @@
   background-color: #b41515;
 }
 
-h1 {
-  font-family: "syne mono";
-}
-
-/*# sourceMappingURL=sobreNosotros.css.map */
+/*# sourceMappingURL=cursosOnline.css.map */

@@ -1,0 +1,21 @@
+@import "header";
+@import "jumbotron";
+@import "fuentes";
+@import "colores";
+@import "footer";
+
+
+
+h1{
+    font-family:"syne mono";
+
+
+}
+.jumbotron .container {
+    padding-bottom: 160px;
+    display: flex;
+    flex-wrap: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+  }
